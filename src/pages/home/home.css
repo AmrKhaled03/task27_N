@@ -1,0 +1,59 @@
+/* Responsive styles for poster images */
+.posterImage {
+    height: 400px; /* Reduced height for smaller screens */
+}
+
+.posterImage > img {
+    width: 100%;
+}
+
+/* Responsive styles for poster image overlay */
+.posterImage__overlay {
+    padding: 2rem; /* Reduced padding for smaller screens */
+    height: 60%; /* Adjusted height for smaller screens */
+}
+
+.posterImage__title {
+    font-size: 2rem; /* Reduced font size for smaller screens */
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 1.5rem; /* Reduced font size for smaller screens */
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 2rem; /* Adjusted margin for smaller screens */
+}
+
+.posterImage__description {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    width: 100%; /* Full width for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+    .posterImage {
+        height: 300px; /* Further reduced height for very small screens */
+    }
+
+    .posterImage__overlay {
+        padding: 1rem; /* Further reduced padding for very small screens */
+        height: 50%; /* Adjusted height for very small screens */
+    }
+
+    .posterImage__title {
+        font-size: 1.5rem; /* Adjusted font size for very small screens */
+    }
+
+    .posterImage__runtime {
+        font-size: 1.25rem; /* Adjusted font size for very small screens */
+    }
+
+    .posterImage__rating {
+        margin-left: 1rem; /* Further adjusted margin for very small screens */
+    }
+}

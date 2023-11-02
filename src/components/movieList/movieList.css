@@ -1,0 +1,26 @@
+.movie__list {
+    padding: 0 1rem 3rem 1rem; /* Reduced left and right padding for smaller screens */
+}
+
+.list__title {
+    font-size: 1.5rem; /* Decreased font size for smaller screens */
+    margin: 1rem 0.5rem; /* Reduced margins for smaller screens */
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+    .movie__list {
+        padding: 0.5rem; /* Further reduced padding for very small screens */
+    }
+
+    .list__title {
+        font-size: 1.25rem; /* Adjusted font size for very small screens */
+        margin: 0.5rem 0.25rem; /* Adjusted margins for very small screens */
+    }
+}
